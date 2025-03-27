@@ -1,6 +1,6 @@
 from plot_AQI import avg_data_2013,avg_data_2014,avg_data_2015,avg_data_2016
 # lst = avg_data_2013()
-print(lst)
+# print(lst)
 import requests
 import sys
 import pandas as pd
@@ -101,4 +101,4 @@ if __name__ == "__main__":
         wr.writerows(total)
         
         
-df=pd.read_csv('Data/Real-Data/Real_Combine.csv')
+# df=pd.read_csv('Data/Real-Data/Real_Combine.csv')
